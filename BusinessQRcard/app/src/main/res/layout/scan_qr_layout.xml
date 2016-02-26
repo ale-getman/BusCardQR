@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray">
+
+    <FrameLayout
+        android:id="@+id/cameraPreview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_marginTop="20dip"
+        android:background="@android:color/white">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Включить камеру"
+            android:background="@drawable/btn_style"
+            style="@style/btn_text_style"
+            android:layout_gravity="center"
+            android:id="@+id/onCamera"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/flashBtn"
+            android:background="@android:drawable/ic_menu_compass" />
+
+        <TextView
+            android:id="@+id/scanText"
+            android:text="@string/scan_process_label"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_style"
+            style="@style/btn_text_style"
+            android:id="@+id/addContact"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:text="Добавить контакт"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BusinessQRcard</string>
+    <string name="edit_info">Редактировать информацию</string>
+    <string name="show_qr">Показать QR-code</string>
+    <string name="scan_qr">Отсканировать QR-code</string>
+
+    <string name="scan_process_label">Scanning…</string>
+    <string name="scan_label">Scan</string>
+    <string name="scan_result_label">Last scan result: </string>
+</resources>
